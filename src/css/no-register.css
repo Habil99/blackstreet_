@@ -1,0 +1,705 @@
+/*************************** No Register View Bag Page start **************************/
+
+.no-register-view-bag-section .continue-button{
+  margin-left: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.no-register-view-bag-section .continue-button{
+  padding-left: 180px;
+}
+
+.new-register-section .continue-button{
+  padding-left: 170px;
+}
+
+.success  .continue-button{
+  padding-left: 170px;
+  margin-left: auto;
+}
+
+.continue-button {
+  align-items: center;
+  margin-left:auto;
+  padding-left: 100px;
+}
+
+.continue-button .cont-shop {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.new-register-signup .continue-button .cont-shop,
+.new-register-signup .continue-button .cont-img{
+  margin-left: 1.5rem;
+}
+
+.new-register-section .continue-button .cont-shop{
+  margin-left: 3rem;
+}
+
+.new-register-section .continue-button .cont-img{
+  margin-left: .5rem;
+}
+
+.no-register-view-bag-section .continue-button .cont-shop{
+  margin-left: 3rem;
+}
+.no-register-view-bag-section nav ol li a,
+.no-register-final-pay nav ol li a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.table-title {
+  margin-left: -12px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.vert-divider,
+.hor-divider {
+  width: 1296px;
+  height: 0px;
+  border: 1px solid #c4c4c4;
+  margin: 20px 0px;
+}
+
+.tbody .col-lg-2.d-flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shopping-table .thead .col-lg-5,
+.shopping-table .thead .col-lg-2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.size-selection{
+  margin-top: 0;
+}
+
+.table-img img {
+  width: 183px;
+  height: 254px;
+}
+
+.table-img .size-selection label {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #949495;
+}
+
+.size-selection {
+  align-items: flex-start;
+}
+
+.size-selection label {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.select {
+  width: 76px;
+  height: 58px;
+}
+
+.size-select .form-control {
+  border-radius: 0;
+}
+
+.size-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  align-items: center;
+}
+
+.size-select select option {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: #f6f6f7;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.size-select select.input-lg {
+  background-color: #f6f6f7;
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 25px !important;
+}
+
+.size-select select + i.fa {
+  float: right;
+  margin-top: -33px;
+  margin-right: 9px;
+  pointer-events: none;
+  padding-right: 5px;
+}
+
+.shopping-table .tbody .td-price {
+  padding-right: 3rem;
+  padding-left: 0;
+}
+
+.shopping-table .tbody .td-price p,
+.shopping-table .tbody .td-total p {
+  margin-top: 60%;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.shopping-table .tbody .td-price p {
+  font-weight: 500;
+  color: #ff0a0a;
+}
+
+.shopping-table .tbody .td-total p {
+  font-weight: 700;
+  color: #2f2f30;
+}
+
+.shopping-table .tbody .td-price,
+.shopping-table .tbody .td-total{
+  padding-right: 3rem;
+  padding-left: 0;
+}
+
+.shopping-table .tbody .td-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.shopping-table .tbody .td-quantity .td-quantity-numb .numb {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.shopping-table .tbody .td-quantity .td-quantity-numb .decrease-numb,
+.shopping-table .tbody .td-quantity .td-quantity-numb .increase-numb {
+  cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.shopping-table .tbody .td-quantity .td-quantity-operations {
+  margin-left: -60px;
+  justify-content: space-between;
+}
+
+.shopping-table .tbody .td-quantity .td-quantity-operations a {
+  text-decoration: none;
+  margin: 0px 15px 0px 15px !important;
+  -moz-margin: 0px 15px 0px 15px !important;
+  -webkit-margin: 0px 15px 0px 15px !important;
+  -ms-margin: 0px 15px 0px 15px !important;
+  -o-margin: 0px 15px 0px 15px !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #043768;
+}
+
+.shopping-table .tbody .td-quantity .td-quantity-operations .td-remove {
+  text-transform: capitalize;
+}
+
+.shopping-table .tbody .td-quantity .td-quantity-operations .td-save {
+  border-bottom: 0.6px solid #043768 !important;
+  -webkit-border-bottom: 0.6px solid #043768 !important;
+  -moz-border-bottom: 0.6px solid #043768 !important;
+  -ms-border-bottom: 0.6px solid #043768 !important;
+  -o-border-bottom: 0.6px solid #043768 !important;
+}
+
+.coupon-code-section .coupon-title,
+.coupon-code-section .totals-title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.coupon-bottom,
+.total-bottom {
+  width: 609px;
+  border: 1px solid #c4c4c4;
+}
+
+.coupon-code-section .coupon-code {
+  text-decoration: none;
+  width: 247px;
+  height: 58px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.total-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.total-form label {
+  color: #2f2f30;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+.total-form label,
+.total-form label:hover {
+  color: #2f2f30;
+}
+
+.total-form .checkout {
+  position: relative;
+  margin-left: 51%;
+  width: 306px;
+  height: 62px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0em;
+  box-sizing: border-box;
+  border: 1px solid #2f2f30;
+  padding-top: 20px;
+  transition: all 0.2s linear;
+}
+
+.total-form .checkout:hover {
+  background: #fff !important;
+  color: #2f2f30;
+}
+
+.form-input-1 {
+  padding: 0px 10px 0px 10px;
+  width: 611px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.order-info-table {
+  width: 1296px;
+  height: 376px;
+}
+
+/*************************** No Register View Bag Page End **************************/
+
+/********************************* New Register Page Start ********************************/
+.new-register-title,
+.no-register-address-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #2f2f30;
+}
+
+.no-register-address-section .continue-btn {
+  color: #fff;
+  width: 110px;
+  border: 1px solid #2f2f30;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+.no-register-address-section .continue-btn:hover {
+  background: #fff !important;
+  color: #2f2f30;
+}
+
+.no-register-address-section .return-btn {
+  background: #fff !important;
+  border: 1px solid;
+}
+
+.no-register-address-section .return-btn:hover {
+  background: #2f2f30 !important;
+  color: #fff;
+  border: 1px solid #2f2f30;
+}
+
+.personal-info-table {
+  flex-direction: column;
+}
+
+.new-register-section .personal-info-part {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+.personal-info-table input {
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 0px 10px 0px 10px;
+}
+
+.personal-info-table label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+
+.personal-info-table label:hover {
+  color: #2f2f30;
+}
+
+.personal-info-table input[type="checkbox"] {
+  margin-right: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.personal-info-table a {
+  text-transform: uppercase;
+  color: #fff;
+  width: 190px;
+  height: 33px;
+  padding: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  transition: all 0.2s linear;
+}
+
+.personal-info-table input[type="checkbox"]::before {
+  margin-top: 12px;
+  left: 0;
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-left: -2px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+}
+
+.personal-info-table input[type="checkbox"]:checked:before {
+  background-color: #c4c4c4;
+}
+
+.personal-info-table .info-table-alert {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #ff0a0a;
+}
+
+.info-cont:hover {
+  background: #fff !important;
+  border: 1px solid;
+}
+
+/********************************* New Register Page End **********************************/
+
+/********************************* New Register final pay Page Start **********************************/
+
+.finalpay-table {
+  margin: 86px 0 108px 0;
+}
+
+.finalpay-table .finalpay-table-cell {
+  padding: 20px;
+  border: 1px solid #c4c4c4;
+  height: 64px;
+  scrollbar-width: thin;
+  scrollbar-color: #c4c4c4 transparent;
+}
+
+
+.finalpay-table .finalpay-table-cell ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  background-clip: content-box;
+}
+
+.finalpay-table .finalpay-table-cell ::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  height: 5px;
+}
+
+.finalpay-table .finalpay-table-cell ::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+}
+
+.finalpay-table .finalpay-table-cell span {
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19.5px;
+}
+
+.finalpay-table .row:nth-child(2) .finalpay-table-cell {
+  height: 312px;
+}
+
+.finalpay-table .finalpay-table-cell .list-group .list-group-item {
+  background: none;
+  color: #2f2f30;
+  padding: 0 0 6px 0;
+  font-weight: 500;
+  font-style: 16px;
+  margin: 0;
+  border: 0;
+}
+/* 
+.finalpay-table
+  .row:nth-child(2)
+  .finalpay-table-cell
+  form
+  input[type="checkbox"] {
+  margin-right: 15px;
+  position: relative;
+}
+
+.finalpay-table
+  .row:nth-child(2)
+  .finalpay-table-cell
+  form
+  input[type="checkbox"]::before {
+  left: 0;
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-left: -4px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+}
+
+.finalpay-table
+  .row:nth-child(2)
+  .finalpay-table-cell
+  form
+  input[type="checkbox"]:checked::before {
+  background-color: #c4c4c4;
+} */
+
+.finalpay-table form .checkbox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.finalpay-table form .checkbox label {
+  font-size: 16px;
+  color: #2f2f30;
+  position: absolute;
+  z-index: 10;
+  padding: 5px 0 0 30px;
+  cursor: pointer;
+}
+
+.finalpay-table form .checkbox input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.finalpay-table form .checkbox input:checked ~ .check {
+  border-color: #c4c4c4;
+  -webkit-box-shadow: 0px 0px 0px 15px #c4c4c4 inset;
+  box-shadow: 0px 0px 0px 15px #c4c4c4 inset;
+}
+
+.finalpay-table form .checkbox input:checked ~ .check::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.finalpay-table form .checkbox .check {
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  -webkit-box-shadow: 0px 0px 0px 0px #c4c4c4 inset;
+  box-shadow: 0px 0px 0px 0px #c4c4c4 inset;
+  -webkit-transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+  transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+.finalpay-table form .checkbox .check::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 4;
+  position: absolute;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-delay: 0.2s !important;
+  transition-delay: 0.2s !important;
+  -webkit-transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+  transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+.totals--section .totals-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.totals-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.cart-total {
+  background: #fff;
+  height: 50px;
+  padding: 14px;
+  border: 1px solid #c4c4c4;
+}
+
+.order {
+  margin-top: 53px;
+}
+
+.cart-total .order-total {
+  color: #ff0a0a;
+}
+
+.cart-total span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+}
+
+.cart-total span:nth-child(2) {
+  height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.totals--section .checkout-pay {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0em;
+  box-sizing: border-box;
+  border: 1px solid #2f2f30;
+  padding: 20px;
+  margin-top: 64px;
+  transition: all 0.2s linear;
+}
+
+.totals--section .checkout-pay:hover {
+  background: #fff !important;
+  color: #2f2f30;
+}
+
+/********************************* New Register final pay Page End **********************************/

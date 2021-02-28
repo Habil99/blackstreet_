@@ -1,0 +1,255 @@
+
+/************************************** Fullwidth Dropdown Menu Start **************************/
+.dropdown-menu{
+    border-top: 2px solid #C4C4C4;
+    position: relative;
+    z-index: 5;
+}
+
+.menu-area{
+    position: static;
+    border: none;
+    border-radius: 0;
+}
+.mega-area{
+    position: absolute;
+    width: 100%;
+    margin-top: -1px;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    height:437px;
+}
+.dropdown-item{
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+
+.dropdown:hover .dropdown-menu, 
+.navbar .dropdown .dropdown-menu:hover {
+    display:block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+.dropdown .nav-link{
+   position: relative;
+}
+
+.dropdown .nav-link::after{ 
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 42px;
+    background-color: #2F2F30;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 2px;
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.nav-2 .nav-list-3 .nav-item:first-child .nav-link::after{ 
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 42px;
+    background-color: #2F2F30;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 2px;
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.dropdown .nav-link:hover::after,
+.nav-2 .nav-list-3 .nav-item:first-child .nav-link:hover::after{
+    width: 100%;
+}
+
+.mega-area .show-tab{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #2F2F30;
+    float: right;
+}
+
+.mega-area ul{
+    list-style: none;
+    margin-top: 0;
+}
+
+.mega-area .col-lg-7 .row .col-lg-4{
+    padding: 30px 30px 0px 0px;
+}
+
+.mega-area .col-lg-7 .row .col-lg-7{
+    padding-top: 30px;
+}
+
+.mega-area .col-lg-7 .row .shop-by-menu .row .col-lg-6 h4{
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* .hide{
+    display: none;
+} */
+
+
+.mega-area .col-lg-7 .row .shop-by-menu .row .col-lg-6 ul{
+    margin-top: 10px;
+}
+
+.mega-area .col-lg-7 .row .shop-by-menu ul li{
+    margin: 0;
+    padding: 3px;
+}
+
+.mega-area .col-lg-7 .row .shop-by-menu ul li:hover{
+    background-color: #fff;
+}
+
+
+.trend-title,
+.shop-by-2 h4{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #2F2F30;
+}
+
+
+.mega-area .col-lg-7 .row .shop-by-menu ul li p{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #2F2F30;
+    margin-bottom: 10px;
+}
+
+.mega-area .col-lg-7 .row .shop-by-menu ul li p:hover{
+    background-color: #fff;
+    color: #C4C4C4;
+}
+
+
+.show-dropdown{
+    margin-top: 5px;
+    margin-left: 25px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #2F2F30;
+    padding-bottom: 5px;
+}
+
+.show-dropdown::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #2F2F30;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dropdown-img-list{
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-img-list li{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-img{
+    width: 94px;
+    height: 94px;
+}
+
+.dropdown-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.dropdown-img-context{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #8E9091;
+}
+
+
+.drop-col-divider{
+    position: relative;
+    margin-right: -20px;
+    margin-top: 5%;
+    padding: 0;
+    width: 0px;
+    height: 332px;
+    border: 1px solid #C4C4C4;
+}
+
+.drop-col-divider::after{
+    content: '';
+    position: absolute;
+}
+
+
+.dropdown-menu::before{
+    width: 100%;
+    top: 100%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    opacity: .7;
+}
+
+.dropdown:hover > .dropdown-menu::before,
+.dropdown a:active > .dropdown-menu::before{
+    height: 30%;    
+}
+
+
+
+
+/************************************** Fullwidth Dropdown Menu End ****************************/
